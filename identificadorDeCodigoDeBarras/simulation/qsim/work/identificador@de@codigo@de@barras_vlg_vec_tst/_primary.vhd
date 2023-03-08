@@ -1,0 +1,4 @@
+library verilog;
+use verilog.vl_types.all;
+entity identificadorDeCodigoDeBarras_vlg_vec_tst is
+end identificadorDeCodigoDeBarras_vlg_vec_tst;

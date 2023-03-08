@@ -1,0 +1,41 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: C:\Users\douge\Desktop\UEFS\SEMESTRE_3\MI Circuitos Digitais\Problema I\matrizDeLeds\matrizDeLeds.csv
+# Generated on: Tue Feb 21 18:49:37 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,Fitter Location,I/O Standard,Reserved,Current Strength
+C0,Output,PIN_97,2,PIN_97,,,
+C1,Output,PIN_99,2,PIN_99,,,
+C2,Output,PIN_95,2,PIN_95,,,
+C3,Output,PIN_82,2,PIN_82,,,
+C4,Output,PIN_78,2,PIN_78,,,
+E0,Input,PIN_42,1,PIN_42,,,
+E1,Input,PIN_40,1,PIN_40,,,
+E2,Input,PIN_38,1,PIN_38,,,
+E3,Input,PIN_36,1,PIN_36,,,
+E4,Input,PIN_34,1,PIN_34,,,
+E5,Input,PIN_30,1,PIN_30,,,
+E6,Input,PIN_33,1,PIN_33,,,
+E7,Input,PIN_35,1,PIN_35,,,
+L0,Output,PIN_85,2,PIN_85,,,
+L1,Output,PIN_83,2,PIN_83,,,
+L2,Output,PIN_84,2,PIN_84,,,
+L3,Output,PIN_87,2,PIN_87,,,
+L4,Output,PIN_81,2,PIN_81,,,
+L5,Output,PIN_91,2,PIN_91,,,
+L6,Output,PIN_89,2,PIN_89,,,

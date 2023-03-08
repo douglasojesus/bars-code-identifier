@@ -1,0 +1,351 @@
+TimeQuest Timing Analyzer report for cod2outof5_to_7seg
+Tue Feb 21 18:46:02 2023
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name      ; cod2outof5_to_7seg                                 ;
+; Device Family      ; MAX II                                             ;
+; Device Name        ; EPM240T100C5                                       ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Slow Model                                         ;
+; Rise/Fall Delays   ; Unavailable                                        ;
++--------------------+----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++------------------------------------------------------+
+; Propagation Delay                                    ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; E0         ; a           ; 13.755 ;    ;    ; 13.755 ;
+; E0         ; b           ; 12.601 ;    ;    ; 12.601 ;
+; E0         ; c           ; 10.455 ;    ;    ; 10.455 ;
+; E0         ; d           ; 15.902 ;    ;    ; 15.902 ;
+; E0         ; dig         ; 19.883 ;    ;    ; 19.883 ;
+; E0         ; e           ; 19.991 ;    ;    ; 19.991 ;
+; E0         ; f           ; 17.615 ;    ;    ; 17.615 ;
+; E0         ; g           ; 15.220 ;    ;    ; 15.220 ;
+; E0         ; ledG        ; 12.066 ;    ;    ; 12.066 ;
+; E0         ; ledR        ; 12.051 ;    ;    ; 12.051 ;
+; E1         ; a           ; 13.546 ;    ;    ; 13.546 ;
+; E1         ; b           ; 13.459 ;    ;    ; 13.459 ;
+; E1         ; c           ; 11.690 ;    ;    ; 11.690 ;
+; E1         ; d           ; 16.536 ;    ;    ; 16.536 ;
+; E1         ; dig         ; 20.517 ;    ;    ; 20.517 ;
+; E1         ; e           ; 20.625 ;    ;    ; 20.625 ;
+; E1         ; f           ; 18.249 ;    ;    ; 18.249 ;
+; E1         ; g           ; 15.854 ;    ;    ; 15.854 ;
+; E1         ; ledG        ; 12.012 ;    ;    ; 12.012 ;
+; E1         ; ledR        ; 11.997 ;    ;    ; 11.997 ;
+; E2         ; a           ; 13.911 ;    ;    ; 13.911 ;
+; E2         ; b           ; 12.878 ;    ;    ; 12.878 ;
+; E2         ; c           ; 10.732 ;    ;    ; 10.732 ;
+; E2         ; d           ; 15.759 ;    ;    ; 15.759 ;
+; E2         ; dig         ; 19.740 ;    ;    ; 19.740 ;
+; E2         ; e           ; 19.848 ;    ;    ; 19.848 ;
+; E2         ; f           ; 17.472 ;    ;    ; 17.472 ;
+; E2         ; g           ; 15.077 ;    ;    ; 15.077 ;
+; E2         ; ledG        ; 12.089 ;    ;    ; 12.089 ;
+; E2         ; ledR        ; 12.074 ;    ;    ; 12.074 ;
+; E3         ; a           ; 13.571 ;    ;    ; 13.571 ;
+; E3         ; b           ; 13.826 ;    ;    ; 13.826 ;
+; E3         ; c           ; 12.057 ;    ;    ; 12.057 ;
+; E3         ; d           ; 16.443 ;    ;    ; 16.443 ;
+; E3         ; dig         ; 20.424 ;    ;    ; 20.424 ;
+; E3         ; e           ; 20.532 ;    ;    ; 20.532 ;
+; E3         ; f           ; 18.156 ;    ;    ; 18.156 ;
+; E3         ; g           ; 15.761 ;    ;    ; 15.761 ;
+; E3         ; ledG        ; 12.547 ;    ;    ; 12.547 ;
+; E3         ; ledR        ; 12.532 ;    ;    ; 12.532 ;
+; E4         ; a           ; 14.986 ;    ;    ; 14.986 ;
+; E4         ; b           ; 15.197 ;    ;    ; 15.197 ;
+; E4         ; c           ; 13.428 ;    ;    ; 13.428 ;
+; E4         ; d           ; 17.968 ;    ;    ; 17.968 ;
+; E4         ; dig         ; 21.949 ;    ;    ; 21.949 ;
+; E4         ; e           ; 22.057 ;    ;    ; 22.057 ;
+; E4         ; f           ; 19.681 ;    ;    ; 19.681 ;
+; E4         ; g           ; 17.286 ;    ;    ; 17.286 ;
+; E4         ; ledG        ; 11.389 ;    ;    ; 11.389 ;
+; E4         ; ledR        ; 11.374 ;    ;    ; 11.374 ;
+; E5         ; a           ; 15.859 ;    ;    ; 15.859 ;
+; E5         ; b           ; 15.425 ;    ;    ; 15.425 ;
+; E5         ; c           ; 13.656 ;    ;    ; 13.656 ;
+; E5         ; d           ; 18.841 ;    ;    ; 18.841 ;
+; E5         ; dig         ; 22.822 ;    ;    ; 22.822 ;
+; E5         ; e           ; 22.930 ;    ;    ; 22.930 ;
+; E5         ; f           ; 20.554 ;    ;    ; 20.554 ;
+; E5         ; g           ; 18.159 ;    ;    ; 18.159 ;
+; E6         ; a           ; 15.039 ;    ;    ; 15.039 ;
+; E6         ; b           ; 14.271 ;    ;    ; 14.271 ;
+; E6         ; c           ; 12.502 ;    ;    ; 12.502 ;
+; E6         ; d           ; 18.021 ;    ;    ; 18.021 ;
+; E6         ; dig         ; 22.002 ;    ;    ; 22.002 ;
+; E6         ; e           ; 22.110 ;    ;    ; 22.110 ;
+; E6         ; f           ; 19.734 ;    ;    ; 19.734 ;
+; E6         ; g           ; 17.339 ;    ;    ; 17.339 ;
+; E7         ; a           ; 15.211 ;    ;    ; 15.211 ;
+; E7         ; b           ; 14.449 ;    ;    ; 14.449 ;
+; E7         ; c           ; 12.680 ;    ;    ; 12.680 ;
+; E7         ; d           ; 18.193 ;    ;    ; 18.193 ;
+; E7         ; dig         ; 22.174 ;    ;    ; 22.174 ;
+; E7         ; e           ; 22.282 ;    ;    ; 22.282 ;
+; E7         ; f           ; 19.906 ;    ;    ; 19.906 ;
+; E7         ; g           ; 17.511 ;    ;    ; 17.511 ;
++------------+-------------+--------+----+----+--------+
+
+
++------------------------------------------------------+
+; Minimum Propagation Delay                            ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; E0         ; a           ; 11.976 ;    ;    ; 11.976 ;
+; E0         ; b           ; 12.225 ;    ;    ; 12.225 ;
+; E0         ; c           ; 10.455 ;    ;    ; 10.455 ;
+; E0         ; d           ; 11.824 ;    ;    ; 11.824 ;
+; E0         ; dig         ; 12.269 ;    ;    ; 12.269 ;
+; E0         ; e           ; 12.774 ;    ;    ; 12.774 ;
+; E0         ; f           ; 13.408 ;    ;    ; 13.408 ;
+; E0         ; g           ; 11.137 ;    ;    ; 11.137 ;
+; E0         ; ledG        ; 10.952 ;    ;    ; 10.952 ;
+; E0         ; ledR        ; 10.937 ;    ;    ; 10.937 ;
+; E1         ; a           ; 13.036 ;    ;    ; 13.036 ;
+; E1         ; b           ; 13.042 ;    ;    ; 13.042 ;
+; E1         ; c           ; 11.690 ;    ;    ; 11.690 ;
+; E1         ; d           ; 11.615 ;    ;    ; 11.615 ;
+; E1         ; dig         ; 13.021 ;    ;    ; 13.021 ;
+; E1         ; e           ; 13.396 ;    ;    ; 13.396 ;
+; E1         ; f           ; 12.061 ;    ;    ; 12.061 ;
+; E1         ; g           ; 10.927 ;    ;    ; 10.927 ;
+; E1         ; ledG        ; 12.012 ;    ;    ; 12.012 ;
+; E1         ; ledR        ; 11.997 ;    ;    ; 11.997 ;
+; E2         ; a           ; 11.994 ;    ;    ; 11.994 ;
+; E2         ; b           ; 12.502 ;    ;    ; 12.502 ;
+; E2         ; c           ; 10.732 ;    ;    ; 10.732 ;
+; E2         ; d           ; 11.979 ;    ;    ; 11.979 ;
+; E2         ; dig         ; 12.320 ;    ;    ; 12.320 ;
+; E2         ; e           ; 13.051 ;    ;    ; 13.051 ;
+; E2         ; f           ; 12.531 ;    ;    ; 12.531 ;
+; E2         ; g           ; 11.293 ;    ;    ; 11.293 ;
+; E2         ; ledG        ; 10.970 ;    ;    ; 10.970 ;
+; E2         ; ledR        ; 10.955 ;    ;    ; 10.955 ;
+; E3         ; a           ; 12.457 ;    ;    ; 12.457 ;
+; E3         ; b           ; 12.065 ;    ;    ; 12.065 ;
+; E3         ; c           ; 12.057 ;    ;    ; 12.057 ;
+; E3         ; d           ; 11.480 ;    ;    ; 11.480 ;
+; E3         ; dig         ; 12.696 ;    ;    ; 12.696 ;
+; E3         ; e           ; 10.867 ;    ;    ; 10.867 ;
+; E3         ; f           ; 10.978 ;    ;    ; 10.978 ;
+; E3         ; g           ; 10.794 ;    ;    ; 10.794 ;
+; E3         ; ledG        ; 11.433 ;    ;    ; 11.433 ;
+; E3         ; ledR        ; 11.418 ;    ;    ; 11.418 ;
+; E4         ; a           ; 12.413 ;    ;    ; 12.413 ;
+; E4         ; b           ; 13.590 ;    ;    ; 13.590 ;
+; E4         ; c           ; 13.428 ;    ;    ; 13.428 ;
+; E4         ; d           ; 13.018 ;    ;    ; 13.018 ;
+; E4         ; dig         ; 13.956 ;    ;    ; 13.956 ;
+; E4         ; e           ; 13.735 ;    ;    ; 13.735 ;
+; E4         ; f           ; 13.614 ;    ;    ; 13.614 ;
+; E4         ; g           ; 12.332 ;    ;    ; 12.332 ;
+; E4         ; ledG        ; 11.389 ;    ;    ; 11.389 ;
+; E4         ; ledR        ; 11.374 ;    ;    ; 11.374 ;
+; E5         ; a           ; 15.807 ;    ;    ; 15.807 ;
+; E5         ; b           ; 14.463 ;    ;    ; 14.463 ;
+; E5         ; c           ; 13.656 ;    ;    ; 13.656 ;
+; E5         ; d           ; 13.875 ;    ;    ; 13.875 ;
+; E5         ; dig         ; 14.184 ;    ;    ; 14.184 ;
+; E5         ; e           ; 13.963 ;    ;    ; 13.963 ;
+; E5         ; f           ; 13.669 ;    ;    ; 13.669 ;
+; E5         ; g           ; 13.189 ;    ;    ; 13.189 ;
+; E6         ; a           ; 14.987 ;    ;    ; 14.987 ;
+; E6         ; b           ; 13.643 ;    ;    ; 13.643 ;
+; E6         ; c           ; 12.502 ;    ;    ; 12.502 ;
+; E6         ; d           ; 13.055 ;    ;    ; 13.055 ;
+; E6         ; dig         ; 13.030 ;    ;    ; 13.030 ;
+; E6         ; e           ; 12.809 ;    ;    ; 12.809 ;
+; E6         ; f           ; 12.849 ;    ;    ; 12.849 ;
+; E6         ; g           ; 12.369 ;    ;    ; 12.369 ;
+; E7         ; a           ; 15.159 ;    ;    ; 15.159 ;
+; E7         ; b           ; 13.815 ;    ;    ; 13.815 ;
+; E7         ; c           ; 12.680 ;    ;    ; 12.680 ;
+; E7         ; d           ; 13.227 ;    ;    ; 13.227 ;
+; E7         ; dig         ; 13.208 ;    ;    ; 13.208 ;
+; E7         ; e           ; 12.987 ;    ;    ; 12.987 ;
+; E7         ; f           ; 13.021 ;    ;    ; 13.021 ;
+; E7         ; g           ; 12.541 ;    ;    ; 12.541 ;
++------------+-------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 8     ; 8    ;
+; Unconstrained Input Port Paths  ; 74    ; 74   ;
+; Unconstrained Output Ports      ; 10    ; 10   ;
+; Unconstrained Output Port Paths ; 74    ; 74   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Tue Feb 21 18:46:00 2023
+Info: Command: quartus_sta cod2outof5_to_7seg -c cod2outof5_to_7seg
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'cod2outof5_to_7seg.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4590 megabytes
+    Info: Processing ended: Tue Feb 21 18:46:02 2023
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:00
+
+

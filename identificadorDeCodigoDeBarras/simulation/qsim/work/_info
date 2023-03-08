@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\douge\Desktop\UEFS\SEMESTRE_3\MI_Circuitos_Digitais\Problema_I\identificadorDeCodigoDeBarras\simulation\qsim
+videntificadorDeCodigoDeBarras
+Z1 !s100 6FXSEMG0F[2kR1ClY41kJ2
+Z2 I=i^[[E`MTSDH4XXece]:51
+Z3 V[fQ4aJDiJdBaXX>nGA:P33
+Z4 dC:\Users\douge\Desktop\UEFS\SEMESTRE_3\MI_Circuitos_Digitais\Problema_I\identificadorDeCodigoDeBarras\simulation\qsim
+Z5 w1678029529
+Z6 8identificadorDeCodigoDeBarras.vo
+Z7 FidentificadorDeCodigoDeBarras.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|identificadorDeCodigoDeBarras.vo|
+Z10 o-work work -O0
+Z11 nidentificador@de@codigo@de@barras
+!i10b 1
+!s85 0
+Z12 !s108 1678029530.389000
+Z13 !s107 identificadorDeCodigoDeBarras.vo|
+!s101 -O0
+videntificadorDeCodigoDeBarras_vlg_check_tst
+!i10b 1
+Z14 !s100 Ha[910?2RE1[V4PM<GGAB0
+Z15 IgDn68zVRX1hXOl[=eaI[T0
+Z16 VDRgM7:6WXI[00HU`dR=J]3
+R4
+Z17 w1678029527
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 71
+R8
+r1
+!s85 0
+31
+Z20 !s108 1678029530.514000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 nidentificador@de@codigo@de@barras_vlg_check_tst
+videntificadorDeCodigoDeBarras_vlg_sample_tst
+!i10b 1
+Z24 !s100 i2<Q7T>mcY4ThMWee`bOK3
+Z25 IjV?Zm6iXzQ1z?aoabT9I33
+Z26 VKnR==TR2obUL`@ZNHm93o3
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nidentificador@de@codigo@de@barras_vlg_sample_tst
+videntificadorDeCodigoDeBarras_vlg_vec_tst
+!i10b 1
+!s100 @WVTMzW`AicDR6]1L@nQX3
+IE^c7>VU:7g2ifC<d6Io`P0
+Z28 V_FeZ]040445]JT9QPBjmz1
+R4
+R17
+R18
+R19
+Z29 L0 733
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 nidentificador@de@codigo@de@barras_vlg_vec_tst

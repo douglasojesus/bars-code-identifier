@@ -1,0 +1,39 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+# File: C:\Users\douge\Desktop\UEFS\SEMESTRE_3\MI Circuitos Digitais\Problema I\code2outof5To7seg\cod2outof5_to_7seg.csv
+# Generated on: Tue Feb 21 18:48:47 2023
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,Fitter Location,I/O Standard,Reserved,Current Strength
+E0,Input,PIN_42,1,PIN_39,,,
+E1,Input,PIN_40,1,PIN_77,,,
+E2,Input,PIN_38,1,PIN_7,,,
+E3,Input,PIN_36,1,PIN_8,,,
+E4,Input,PIN_34,1,PIN_20,,,
+E5,Input,PIN_30,1,PIN_2,,,
+E6,Input,PIN_33,1,PIN_27,,,
+E7,Input,PIN_35,1,PIN_12,,,
+a,Output,PIN_90,2,PIN_16,,,
+b,Output,PIN_70,2,PIN_18,,,
+c,Output,PIN_41,1,PIN_33,,,
+d,Output,PIN_98,2,PIN_21,,,
+dig,Output,PIN_100,2,PIN_19,,,
+e,Output,PIN_92,2,PIN_4,,,
+f,Output,PIN_39,1,PIN_61,,,
+g,Output,PIN_96,2,PIN_6,,,
+ledG,Output,PIN_72,2,PIN_5,,,
+ledR,Output,PIN_86,2,PIN_1,,,
