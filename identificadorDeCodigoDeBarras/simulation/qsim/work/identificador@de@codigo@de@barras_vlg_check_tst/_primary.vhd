@@ -18,7 +18,10 @@ entity identificadorDeCodigoDeBarras_vlg_check_tst is
         b               : in     vl_logic;
         c               : in     vl_logic;
         d               : in     vl_logic;
-        dig             : in     vl_logic;
+        dig1seg         : in     vl_logic;
+        dig2seg         : in     vl_logic;
+        dig3seg         : in     vl_logic;
+        dig4seg         : in     vl_logic;
         e               : in     vl_logic;
         f               : in     vl_logic;
         g               : in     vl_logic;

@@ -98,7 +98,7 @@ E6                           : 33        : input  : 3.3-V LVTTL       :         
 E4                           : 34        : input  : 3.3-V LVTTL       :         : 1         : Y              
 E7                           : 35        : input  : 3.3-V LVTTL       :         : 1         : Y              
 E3                           : 36        : input  : 3.3-V LVTTL       :         : 1         : Y              
-dig                          : 37        : output : 3.3-V LVTTL       :         : 1         : Y              
+dig4seg                      : 37        : output : 3.3-V LVTTL       :         : 1         : Y              
 E2                           : 38        : input  : 3.3-V LVTTL       :         : 1         : Y              
 g                            : 39        : output : 3.3-V LVTTL       :         : 1         : Y              
 E1                           : 40        : input  : 3.3-V LVTTL       :         : 1         : Y              
@@ -127,9 +127,9 @@ GND*                         : 62        :        :                   :         
 VCCINT                       : 63        : power  :                   : 2.5V/3.3V :           :                
 GND*                         : 64        :        :                   :         : 2         :                
 GNDINT                       : 65        : gnd    :                   :         :           :                
-GND*                         : 66        :        :                   :         : 2         :                
+dig2seg                      : 66        : output : 3.3-V LVTTL       :         : 2         : Y              
 GND*                         : 67        :        :                   :         : 2         :                
-GND*                         : 68        :        :                   :         : 2         :                
+dig3seg                      : 68        : output : 3.3-V LVTTL       :         : 2         : Y              
 GND*                         : 69        :        :                   :         : 2         :                
 b                            : 70        : output : 3.3-V LVTTL       :         : 2         : Y              
 GND*                         : 71        :        :                   :         : 2         :                
@@ -149,7 +149,7 @@ L2                           : 84        : output : 3.3-V LVTTL       :         
 L0                           : 85        : output : 3.3-V LVTTL       :         : 2         : Y              
 ledR                         : 86        : output : 3.3-V LVTTL       :         : 2         : Y              
 L3                           : 87        : output : 3.3-V LVTTL       :         : 2         : Y              
-GND*                         : 88        :        :                   :         : 2         :                
+dig1seg                      : 88        : output : 3.3-V LVTTL       :         : 2         : Y              
 L6                           : 89        : output : 3.3-V LVTTL       :         : 2         : Y              
 a                            : 90        : output : 3.3-V LVTTL       :         : 2         : Y              
 L5                           : 91        : output : 3.3-V LVTTL       :         : 2         : Y              

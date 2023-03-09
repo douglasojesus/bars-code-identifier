@@ -23,5 +23,5 @@
 # Loading work.identificadorDeCodigoDeBarras_vlg_sample_tst
 # Loading work.identificadorDeCodigoDeBarras_vlg_check_tst
 # Simulation passed !
-# ** Note: $finish    : Waveform.vwf.vt(729)
+# ** Note: $finish    : Waveform.vwf.vt(810)
 #    Time: 1 us  Iteration: 0  Instance: /identificadorDeCodigoDeBarras_vlg_vec_tst/tb_out

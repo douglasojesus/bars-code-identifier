@@ -1,8 +1,8 @@
-module identificadorDeCodigoDeBarras(E7, E6, E5, E4, E3, E2, E1, E0, g, f, e, d, c, b, a, dig, ledR, 
-ledG, L0, L1, L2, L3, L4, L5, L6, C0, C1, C2, C3, C4);
+module identificadorDeCodigoDeBarras(E7, E6, E5, E4, E3, E2, E1, E0, g, f, e, d, c, b, a, ledR, 
+ledG, L0, L1, L2, L3, L4, L5, L6, C0, C1, C2, C3, C4, dig1seg, dig2seg, dig3seg, dig4seg);
 
 	input E0, E1, E2, E3, E4, E5, E6, E7;
-	output L0, L1, L2, L3, L4, L5, L6, C0, C1, C2, C3, C4, g, f, e, d, c, b, a, dig, ledR, ledG;
+	output L0, L1, L2, L3, L4, L5, L6, C0, C1, C2, C3, C4, g, f, e, d, c, b, a, dig1seg, dig2seg, dig3seg, dig4seg, ledR, ledG;
 
 	matrizDeLeds inst1 (.E7(E7), 
 					  .E6(E6), 
@@ -41,7 +41,10 @@ ledG, L0, L1, L2, L3, L4, L5, L6, C0, C1, C2, C3, C4);
 					  .c(c), 
 					  .b(b), 
 					  .a(a), 
-					  .dig(dig), 
+					  .dig1seg(dig1seg), 
+					  .dig2seg(dig2seg), 
+					  .dig3seg(dig3seg), 
+					  .dig4seg(dig4seg),
 					  .ledR(ledR), 
 					  .ledG(ledG)
 	);

@@ -75,7 +75,6 @@ set_location_assignment PIN_90 -to a
 set_location_assignment PIN_70 -to b
 set_location_assignment PIN_41 -to c
 set_location_assignment PIN_98 -to d
-set_location_assignment PIN_37 -to dig
 set_location_assignment PIN_100 -to e
 set_location_assignment PIN_92 -to f
 set_location_assignment PIN_39 -to g
@@ -86,3 +85,7 @@ set_location_assignment PIN_99 -to C1
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/douge/Desktop/UEFS/SEMESTRE_3/MI_Circuitos_Digitais/Problema_I/identificadorDeCodigoDeBarras/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_location_assignment PIN_88 -to dig1seg
+set_location_assignment PIN_66 -to dig2seg
+set_location_assignment PIN_68 -to dig3seg
+set_location_assignment PIN_37 -to dig4seg

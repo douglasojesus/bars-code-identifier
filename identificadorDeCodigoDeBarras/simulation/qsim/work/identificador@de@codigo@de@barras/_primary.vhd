@@ -17,7 +17,6 @@ entity identificadorDeCodigoDeBarras is
         c               : out    vl_logic;
         b               : out    vl_logic;
         a               : out    vl_logic;
-        dig             : out    vl_logic;
         ledR            : out    vl_logic;
         ledG            : out    vl_logic;
         L0              : out    vl_logic;
@@ -31,6 +30,10 @@ entity identificadorDeCodigoDeBarras is
         C1              : out    vl_logic;
         C2              : out    vl_logic;
         C3              : out    vl_logic;
-        C4              : out    vl_logic
+        C4              : out    vl_logic;
+        dig1seg         : out    vl_logic;
+        dig2seg         : out    vl_logic;
+        dig3seg         : out    vl_logic;
+        dig4seg         : out    vl_logic
     );
 end identificadorDeCodigoDeBarras;
